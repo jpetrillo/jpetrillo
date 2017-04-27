@@ -1,0 +1,43 @@
+
+// Import css
+@import "upbase/scss/upbase";
+
+// Project styles go here
+
+.main-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+
+	@include mq($tablet) {
+		padding: 25px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.joey {
+	width: 85px;
+	margin-bottom: 3px;
+	@include mq($tablet) {
+		width: 105px;
+		margin-bottom: 0px;
+	}
+}
+
+
+.links {
+	font-family: $sans;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+
+.nav-link-sub {
+	@include mq($tablet) {
+		&:hover, &:active {
+			text-decoration: line-through;
+		}
+	}
+}

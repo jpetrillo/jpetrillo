@@ -1,0 +1,108 @@
+
+// Import css
+@import "upbase/scss/upbase";
+
+// Project styles go here
+
+/**----------------------------------------
+	COLORS
+----------------------------------------**/
+
+$blush: #FFF5F5;
+$pink: #FDBECF;
+
+
+/**-----------------------------------------------------------------------------------
+
+	FONTS
+
+-------------------------------------------------------------------------------------**/
+
+@mixin font-face(
+  $family-name,
+  $file-name,
+  $font-weight: normal,
+  $font-style: normal
+  ){
+  @font-face {
+    $font-path: "/src/static/fonts/#{$file-name}";
+    font-family: "#{$family-name}";
+    src: local('☺'),
+      url($font-path + '.woff') format('woff'),
+      url($font-path + '.svg') format('svg'),
+      local('☺');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
+
+/**----------------------------------------
+	STANLEY
+----------------------------------------**/
+
+@include font-face(
+  $family-name: Stanley,
+  $file-name: Stanley-Regular,
+  $font-weight: 300
+  );
+
+@include font-face(
+  $family-name: BluuNext,
+  $file-name: BluuNext-Bold,
+  $font-weight: 500
+  );
+
+$serif: Stanley-Regular, Times, Georgia, serif;
+$serif-bold: BluuNext-Bold, Times, Georgia, serif;
+
+/**----------------------------------------
+	SPORTING GROTESQUE
+----------------------------------------**/
+
+@include font-face(
+  $family-name: Sporting Grotesque,
+  $file-name: sportinggrotesque-normal,
+  $font-weight: 300
+  );
+
+@include font-face(
+  $family-name: Sporting Grotesque,
+  $file-name: sportinggrotesque-gras,
+  $font-weight: 500
+  );
+
+$sans: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+$sans-bold: sportinggrotesque-gras;
+
+/**----------------------------------------
+	COUSINE
+----------------------------------------**/
+
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
+@include font-face(
+  $family-name: Cousine,
+  $file-name: Cousine-Regular,
+  $font-weight: 300
+  );
+
+@include font-face(
+  $family-name: Cousine,
+  $file-name: Cousine-Bold,
+  $font-weight: 500
+  );
+
+$mono: Cousine, Courier, monospace;
+$mono-bold: Cousine-Bold;
+
+
+/**---------------------------------------
+  BREAKPOINTS
+----------------------------------------**/
+
+$phone:      401px;
+$phablet:    550px;
+$tablet-sm:  768px;
+$tablet:     850px;
+$desktop:    1024px;
+$desktop-xl: 1240px;

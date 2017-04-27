@@ -1,0 +1,48 @@
+
+// Import css
+@import "upbase/scss/upbase";
+@import "src/static/scss/reset.scss";
+@import "variables";
+@import "src/static/scss/animations.scss";
+@import "src/static/scss/nav.scss";
+@import "src/static/scss/work.scss";
+@import "src/static/scss/about.scss";
+@import "src/static/scss/project.scss";
+@import "src/static/scss/footer.scss";
+
+// Project styles go here
+
+body {
+	padding:0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.about, .work, .project {
+	margin:0px auto 0px auto;
+	vertical-align: middle;
+	max-width: 1400px;
+}
+
+// .about, .project {
+// 	overflow: hidden;
+// 	padding: 0px 20px;
+
+// 	@include mq($tablet){
+// 		padding: 0px 60px;
+// 	}
+// }
+
+::selection {
+  background: $pink;
+  color: white;
+}
+
+::-moz-selection {
+  background: $pink;
+  color: white;
+}
