@@ -493,6 +493,9 @@ nav, .about-links {
   font-family: Stanley-Regular, Times, Georgia, serif;
   font-size: 14px; }
 
+body {
+  background: red; }
+
 .work-container {
   vertical-align: middle;
   text-align: center;
