@@ -30,6 +30,8 @@ $pink: #FDBECF;
     src: local('☺'),
       url($font-path + '.woff') format('woff'),
       url($font-path + '.svg') format('svg'),
+      url($font-path + '.ttf') format('ttf'),
+      url($font-path + '.otf') format('otf'),
       local('☺');
     font-weight: $font-weight;
     font-style: $font-style;
@@ -40,20 +42,47 @@ $pink: #FDBECF;
 	STANLEY
 ----------------------------------------**/
 
+// @font-face {
+//     font-family: 'bluu';
+//     src: url('bluunext-bold-webfont.woff2') format('woff2'),
+//          url('bluunext-bold-webfont.woff') format('woff'),
+//          url('bluunext-bold.ttf') format('truetype'),
+//          url('bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'bluu';
+//     src: url('bluunext-bolditalic-webfont.woff2') format('woff2'),
+//          url('bluunext-bolditalic-webfont.woff') format('woff'),
+//          url('bluunext-bolditalic.ttf') format('truetype'),
+//          url('bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+
 @include font-face(
   $family-name: Stanley,
-  $file-name: Stanley-Regular,
+  $file-name: Optimo - Stanley-Regular,
   $font-weight: 300
   );
 
 @include font-face(
   $family-name: BluuNext,
-  $file-name: BluuNext-Bold,
+  $file-name: bluunext-bold-webfont,
+  $font-weight: 500
+  );
+
+@include font-face(
+  $family-name: BluuNext,
+  $file-name: bluunext-bold-webfont,
   $font-weight: 500
   );
 
 $serif: Stanley-Regular, Times, Georgia, serif;
-$serif-bold: BluuNext-Bold, Times bold, Georgia bold, serif bold;
+$serif-bold: BluuNext-Bold, Times, Georgia, serif;
 
 /**----------------------------------------
 	SPORTING GROTESQUE
@@ -72,7 +101,7 @@ $serif-bold: BluuNext-Bold, Times bold, Georgia bold, serif bold;
   );
 
 $sans: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
-$sans-bold: sportinggrotesque-gras, Helvetica bold, Arial bold, sans-serif bold;
+$sans-bold: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
 
 /**----------------------------------------
 	COUSINE
@@ -93,7 +122,7 @@ $sans-bold: sportinggrotesque-gras, Helvetica bold, Arial bold, sans-serif bold;
   );
 
 $mono: Cousine, Courier, monospace;
-$mono-bold: Cousine-Bold, Courier bold, monospace bold;
+$mono-bold: Cousine-Bold, Courier, monospace;
 
 
 /**---------------------------------------
