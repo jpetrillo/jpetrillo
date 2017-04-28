@@ -10,6 +10,11 @@
 
 .about-container {
 	animation: .7s ease 0s 1 AboutIntro;
+	padding: 0px 25px 25px 25px;
+
+	@include mq($tablet) {
+		padding: 0px;
+	}
 }
 
 
@@ -33,19 +38,21 @@ nav, .about-links {
 .about-text--link {
 	border-bottom: 1px solid $pink;
 
-	&:hover {
-		transition: .2s;
-		border-bottom: none;
-		color: $pink;
+	@include mq($tablet){
+		&:hover {
+			transition: .2s;
+			border-bottom: none;
+			color: $pink;
+		}
 	}
 }
 
 .intro {
-	font-family: BluuNext-BoldItalic;
-	font-size: 16px;
+	font-family: $sans-bold;
+	font-size: 12px;
 
 	@include mq($tablet) {
-		font-size: 28px;
+		font-size: 22px;
 	}
 }
 

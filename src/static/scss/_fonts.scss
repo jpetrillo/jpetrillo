@@ -1,0 +1,98 @@
+
+// Import css
+@import "upbase/scss/upbase";
+
+// Project styles go here
+
+/**-----------------------------------------------------------------------------------
+
+	FONTS
+
+-------------------------------------------------------------------------------------**/
+
+/**----------------------------------------
+	STANLEY
+----------------------------------------**/
+
+@font-face {
+  font-family: 'Stanley-Regular';
+  src: url('.static/fonts/Optimo - Stanley-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$serif: Stanley-Regular, Times, Georgia, serif;
+
+/**----------------------------------------
+  BLUU
+----------------------------------------**/
+
+@font-face {
+  font-family: 'bluu';
+  src: url('.static/fonts/bluunext-bold-webfont.woff2') format('woff2'),
+       url('.static/fonts/bluunext-bold-webfont.woff') format('woff'),
+       url('.static/fonts/bluunext-bold.ttf') format('truetype'),
+       url('.static/fonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bluu';
+  src: url('bluunext-bolditalic-webfont.woff2') format('woff2'),
+       url('bluunext-bolditalic-webfont.woff') format('woff'),
+       url('bluunext-bolditalic.ttf') format('truetype'),
+       url('bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+$serif-bold: Stanley-Regular, Times, Georgia, serif;
+
+
+
+
+/**----------------------------------------
+	SPORTING GROTESQUE
+----------------------------------------**/
+
+@font-face {
+  font-family: 'sportinggrotesque-normal';
+  src: url('.static/fonts/sporting_grotesque_normal.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sportinggrotesque-gras';
+  src: url('.static/fonts/sporting_grotesque_gras.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+$sans: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+$sans-bold: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
+
+/**----------------------------------------
+	COUSINE
+----------------------------------------**/
+
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
+$mono: Cousine, Courier, monospace;
+$mono-bold: Cousine-Bold, Courier, monospace;
+
+
+/**---------------------------------------
+  BREAKPOINTS
+----------------------------------------**/
+
+$phone:      401px;
+$phablet:    550px;
+$tablet-sm:  768px;
+$tablet:     850px;
+$desktop:    1024px;
+$desktop-xl: 1240px;
