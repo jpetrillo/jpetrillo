@@ -171,32 +171,16 @@ table {
     color: black; } }
 
 .main-nav {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
+  padding: 25px;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 25px; }
-  @media (min-width: 850px) {
-    .main-nav {
-      padding: 25px;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .joey {
   width: 85px;
@@ -260,32 +244,16 @@ table {
     color: black; } }
 
 .main-nav {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
+  padding: 25px;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 25px; }
-  @media (min-width: 850px) {
-    .main-nav {
-      padding: 25px;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .joey {
   width: 85px;
@@ -399,6 +367,15 @@ nav, .about-links {
       -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; } }
 
+.about-arrow--mobile {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  font-family: StanleyRegular, Times, Georgia, serif; }
+  @media (min-width: 401px) {
+    .about-arrow--mobile {
+      display: none; } }
+
 .about-link {
   line-height: 19px;
   margin-bottom: 0px;
@@ -409,7 +386,11 @@ nav, .about-links {
   .about-link .about-arrow {
     position: absolute;
     left: 0;
-    bottom: -2px; }
+    bottom: -2px;
+    display: none; }
+    @media (min-width: 401px) {
+      .about-link .about-arrow {
+        display: block; } }
   .about-link:hover .about-link-text {
     text-decoration: line-through; }
 
@@ -680,6 +661,15 @@ nav, .about-links {
       -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; } }
 
+.about-arrow--mobile {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  font-family: StanleyRegular, Times, Georgia, serif; }
+  @media (min-width: 401px) {
+    .about-arrow--mobile {
+      display: none; } }
+
 .about-link {
   line-height: 19px;
   margin-bottom: 0px;
@@ -690,7 +680,11 @@ nav, .about-links {
   .about-link .about-arrow {
     position: absolute;
     left: 0;
-    bottom: -2px; }
+    bottom: -2px;
+    display: none; }
+    @media (min-width: 401px) {
+      .about-link .about-arrow {
+        display: block; } }
   .about-link:hover .about-link-text {
     text-decoration: line-through; }
 
@@ -761,16 +755,17 @@ nav, .about-links {
 
 .back, .next {
   font-family: Cousine, Courier, monospace;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 9px;
   letter-spacing: 1px;
-  bottom: 45px;
+  bottom: 50px;
   margin: 0px 20px; }
   @media (min-width: 850px) {
     .back, .next {
       bottom: 12px;
-      margin: 0px 60px; } }
+      margin: 0px 60px;
+      font-weight: 700; } }
 
 .back {
   padding-left: 15px;
@@ -817,7 +812,7 @@ nav, .about-links {
 .project-title {
   text-align: center;
   font-family: StanleyRegular, Times, Georgia, serif;
-  font-size: 24px; }
+  font-size: 28px; }
   @media (min-width: 850px) {
     .project-title {
       font-size: 46px; } }
