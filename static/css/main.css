@@ -64,13 +64,19 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: "Stanley";
-  src: local("☺"), url("./src/static/fonts/Stanley-Regular.woff") format("woff"), url("./src/static/fonts/Stanley-Regular.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/Optimo-Stanley-Regular.woff") format("woff"), url("./src/static/fonts/Optimo-Stanley-Regular.svg") format("svg"), url("./src/static/fonts/Optimo-Stanley-Regular.ttf") format("ttf"), url("./src/static/fonts/Optimo-Stanley-Regular.otf") format("otf"), local("☺");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "BluuNext";
-  src: local("☺"), url("./src/static/fonts/BluuNext-Bold.woff") format("woff"), url("./src/static/fonts/BluuNext-Bold.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/bluunext-bold-webfont.woff") format("woff"), url("./src/static/fonts/bluunext-bold-webfont.svg") format("svg"), url("./src/static/fonts/bluunext-bold-webfont.ttf") format("ttf"), url("./src/static/fonts/bluunext-bold-webfont.otf") format("otf"), local("☺");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "BluuNext";
+  src: local("☺"), url("./src/static/fonts/bluunext-bold-webfont.woff") format("woff"), url("./src/static/fonts/bluunext-bold-webfont.svg") format("svg"), url("./src/static/fonts/bluunext-bold-webfont.ttf") format("ttf"), url("./src/static/fonts/bluunext-bold-webfont.otf") format("otf"), local("☺");
   font-weight: 500;
   font-style: normal; }
 
@@ -79,13 +85,13 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: "Sporting Grotesque";
-  src: local("☺"), url("./src/static/fonts/sportinggrotesque-normal.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-normal.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/sportinggrotesque-normal.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-normal.svg") format("svg"), url("./src/static/fonts/sportinggrotesque-normal.ttf") format("ttf"), url("./src/static/fonts/sportinggrotesque-normal.otf") format("otf"), local("☺");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "Sporting Grotesque";
-  src: local("☺"), url("./src/static/fonts/sportinggrotesque-gras.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-gras.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/sportinggrotesque-gras.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-gras.svg") format("svg"), url("./src/static/fonts/sportinggrotesque-gras.ttf") format("ttf"), url("./src/static/fonts/sportinggrotesque-gras.otf") format("otf"), local("☺");
   font-weight: 500;
   font-style: normal; }
 
@@ -94,13 +100,13 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: "Cousine";
-  src: local("☺"), url("./src/static/fonts/Cousine-Regular.woff") format("woff"), url("./src/static/fonts/Cousine-Regular.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/Cousine-Regular.woff") format("woff"), url("./src/static/fonts/Cousine-Regular.svg") format("svg"), url("./src/static/fonts/Cousine-Regular.ttf") format("ttf"), url("./src/static/fonts/Cousine-Regular.otf") format("otf"), local("☺");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "Cousine";
-  src: local("☺"), url("./src/static/fonts/Cousine-Bold.woff") format("woff"), url("./src/static/fonts/Cousine-Bold.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/Cousine-Bold.woff") format("woff"), url("./src/static/fonts/Cousine-Bold.svg") format("svg"), url("./src/static/fonts/Cousine-Bold.ttf") format("ttf"), url("./src/static/fonts/Cousine-Bold.otf") format("otf"), local("☺");
   font-weight: 500;
   font-style: normal; }
 
@@ -240,13 +246,19 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: "Stanley";
-  src: local("☺"), url("./src/static/fonts/Stanley-Regular.woff") format("woff"), url("./src/static/fonts/Stanley-Regular.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/Optimo-Stanley-Regular.woff") format("woff"), url("./src/static/fonts/Optimo-Stanley-Regular.svg") format("svg"), url("./src/static/fonts/Optimo-Stanley-Regular.ttf") format("ttf"), url("./src/static/fonts/Optimo-Stanley-Regular.otf") format("otf"), local("☺");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "BluuNext";
-  src: local("☺"), url("./src/static/fonts/BluuNext-Bold.woff") format("woff"), url("./src/static/fonts/BluuNext-Bold.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/bluunext-bold-webfont.woff") format("woff"), url("./src/static/fonts/bluunext-bold-webfont.svg") format("svg"), url("./src/static/fonts/bluunext-bold-webfont.ttf") format("ttf"), url("./src/static/fonts/bluunext-bold-webfont.otf") format("otf"), local("☺");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "BluuNext";
+  src: local("☺"), url("./src/static/fonts/bluunext-bold-webfont.woff") format("woff"), url("./src/static/fonts/bluunext-bold-webfont.svg") format("svg"), url("./src/static/fonts/bluunext-bold-webfont.ttf") format("ttf"), url("./src/static/fonts/bluunext-bold-webfont.otf") format("otf"), local("☺");
   font-weight: 500;
   font-style: normal; }
 
@@ -255,13 +267,13 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: "Sporting Grotesque";
-  src: local("☺"), url("./src/static/fonts/sportinggrotesque-normal.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-normal.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/sportinggrotesque-normal.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-normal.svg") format("svg"), url("./src/static/fonts/sportinggrotesque-normal.ttf") format("ttf"), url("./src/static/fonts/sportinggrotesque-normal.otf") format("otf"), local("☺");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "Sporting Grotesque";
-  src: local("☺"), url("./src/static/fonts/sportinggrotesque-gras.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-gras.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/sportinggrotesque-gras.woff") format("woff"), url("./src/static/fonts/sportinggrotesque-gras.svg") format("svg"), url("./src/static/fonts/sportinggrotesque-gras.ttf") format("ttf"), url("./src/static/fonts/sportinggrotesque-gras.otf") format("otf"), local("☺");
   font-weight: 500;
   font-style: normal; }
 
@@ -270,13 +282,13 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: "Cousine";
-  src: local("☺"), url("./src/static/fonts/Cousine-Regular.woff") format("woff"), url("./src/static/fonts/Cousine-Regular.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/Cousine-Regular.woff") format("woff"), url("./src/static/fonts/Cousine-Regular.svg") format("svg"), url("./src/static/fonts/Cousine-Regular.ttf") format("ttf"), url("./src/static/fonts/Cousine-Regular.otf") format("otf"), local("☺");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "Cousine";
-  src: local("☺"), url("./src/static/fonts/Cousine-Bold.woff") format("woff"), url("./src/static/fonts/Cousine-Bold.svg") format("svg"), local("☺");
+  src: local("☺"), url("./src/static/fonts/Cousine-Bold.woff") format("woff"), url("./src/static/fonts/Cousine-Bold.svg") format("svg"), url("./src/static/fonts/Cousine-Bold.ttf") format("ttf"), url("./src/static/fonts/Cousine-Bold.otf") format("otf"), local("☺");
   font-weight: 500;
   font-style: normal; }
 
@@ -430,7 +442,7 @@ nav, .about-links {
     clear: both; } }
 
 .about-subhead {
-  font-family: sportinggrotesque-gras, Helvetica bold, Arial bold, sans-serif bold;
+  font-family: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
   font-size: 9px;
   margin-bottom: 10px; }
   @media (min-width: 850px) {
@@ -512,7 +524,7 @@ nav, .about-links {
 .showme {
   -webkit-animation: .5s ease 0s 1 ShowMeIntro;
           animation: .5s ease 0s 1 ShowMeIntro;
-  font-family: Cousine-Bold, Courier bold, monospace bold;
+  font-family: Cousine-Bold, Courier, monospace;
   margin-top: 10vh;
   text-transform: uppercase;
   font-size: 2vh;
@@ -705,7 +717,7 @@ nav, .about-links {
     clear: both; } }
 
 .about-subhead {
-  font-family: sportinggrotesque-gras, Helvetica bold, Arial bold, sans-serif bold;
+  font-family: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
   font-size: 9px;
   margin-bottom: 10px; }
   @media (min-width: 850px) {
@@ -811,7 +823,7 @@ nav, .about-links {
   right: 0; }
 
 .back, .next {
-  font-family: Cousine-Bold, Courier bold, monospace bold;
+  font-family: Cousine-Bold, Courier, monospace;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 1px;
@@ -866,7 +878,7 @@ nav, .about-links {
 
 .project-title {
   text-align: center;
-  font-family: BluuNext-Bold, Times bold, Georgia bold, serif bold;
+  font-family: BluuNext-Bold, Times, Georgia, serif;
   font-size: 24px; }
   @media (min-width: 850px) {
     .project-title {
@@ -915,7 +927,7 @@ nav, .about-links {
 .description, .description-middle {
   font-family: Stanley-Regular, Times, Georgia, serif;
   font-size: 12px;
-  line-height: 1.7em;
+  line-height: 1.5em;
   padding: 25px 15px;
   border: 1px solid #FFF5F5; }
   @media (min-width: 850px) {
@@ -1022,7 +1034,7 @@ footer {
           justify-content: space-between; }
 
 .footer-next, .footer-back {
-  font-family: Cousine-Bold, Courier bold, monospace bold;
+  font-family: Cousine-Bold, Courier, monospace;
   text-transform: uppercase;
   font-size: 9px;
   letter-spacing: 1px;
