@@ -29,23 +29,27 @@ $serif: Stanley-Regular, Times, Georgia, serif;
 ----------------------------------------**/
 
 @font-face {
-  font-family: 'sportinggrotesque-normal';
-  src: url('../fonts/sporting_grotesque_normal.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'sporting_grotesquegras';
+    src: url('../fonts/sporting_grotesque_gras-webfont.woff2') format('woff2'),
+         url('../fonts/sporting_grotesque_gras-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 @font-face {
-  font-family: 'sportinggrotesque-gras';
-  src: url('../fonts/sporting_grotesque_gras.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'sporting_grotesquenormal';
+    src: url('../fonts/sporting_grotesque_normal-webfont.woff2') format('woff2'),
+         url('../fonts/sporting_grotesque_normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
-
-$sans: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
-$sans-bold: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
+$sans: sporting_grotesquenormal, Helvetica, Arial, sans-serif;
+$sans-bold: sporting_grotesquegras, Helvetica, Arial, sans-serif;
 
 /**----------------------------------------
 	COUSINE

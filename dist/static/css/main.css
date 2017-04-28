@@ -73,14 +73,14 @@ table {
 	SPORTING GROTESQUE
 ----------------------------------------**/
 @font-face {
-  font-family: 'sportinggrotesque-normal';
-  src: url("../fonts/sporting_grotesque_normal.otf") format("otf");
+  font-family: 'sporting_grotesquegras';
+  src: url("../fonts/sporting_grotesque_gras-webfont.woff2") format("woff2"), url("../fonts/sporting_grotesque_gras-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'sportinggrotesque-gras';
-  src: url("../fonts/sporting_grotesque_gras.otf") format("otf");
+  font-family: 'sporting_grotesquenormal';
+  src: url("../fonts/sporting_grotesque_normal-webfont.woff2") format("woff2"), url("../fonts/sporting_grotesque_normal-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -202,7 +202,7 @@ table {
       margin-bottom: 0px; } }
 
 .links {
-  font-family: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquenormal, Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px; }
 
@@ -291,7 +291,7 @@ table {
       margin-bottom: 0px; } }
 
 .links {
-  font-family: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquenormal, Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px; }
 
@@ -338,7 +338,7 @@ nav, .about-links {
       color: #FDBECF; } }
 
 .intro {
-  font-family: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquegras, Helvetica, Arial, sans-serif;
   font-size: 12px; }
   @media (min-width: 850px) {
     .intro {
@@ -368,7 +368,7 @@ nav, .about-links {
     clear: both; } }
 
 .about-subhead {
-  font-family: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquegras, Helvetica, Arial, sans-serif;
   font-size: 9px;
   margin-bottom: 10px; }
   @media (min-width: 850px) {
@@ -386,7 +386,7 @@ nav, .about-links {
   padding: 0px; }
 
 .about-link-text {
-  font-family: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquenormal, Helvetica, Arial, sans-serif;
   font-size: 11px;
   margin-left: 20px; }
   @media (min-width: 850px) {
@@ -619,7 +619,7 @@ nav, .about-links {
       color: #FDBECF; } }
 
 .intro {
-  font-family: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquegras, Helvetica, Arial, sans-serif;
   font-size: 12px; }
   @media (min-width: 850px) {
     .intro {
@@ -649,7 +649,7 @@ nav, .about-links {
     clear: both; } }
 
 .about-subhead {
-  font-family: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquegras, Helvetica, Arial, sans-serif;
   font-size: 9px;
   margin-bottom: 10px; }
   @media (min-width: 850px) {
@@ -667,7 +667,7 @@ nav, .about-links {
   padding: 0px; }
 
 .about-link-text {
-  font-family: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquenormal, Helvetica, Arial, sans-serif;
   font-size: 11px;
   margin-left: 20px; }
   @media (min-width: 850px) {
@@ -940,7 +940,7 @@ nav, .about-links {
       width: 49.5%; } }
 
 .footer-links {
-  font-family: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
+  font-family: sporting_grotesquenormal, Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px; }
 
