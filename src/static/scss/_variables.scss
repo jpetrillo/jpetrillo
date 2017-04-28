@@ -25,7 +25,7 @@ $pink: #FDBECF;
   $font-style: normal
   ){
   @font-face {
-    $font-path: "/src/static/fonts/#{$file-name}";
+    $font-path: "./src/static/fonts/#{$file-name}";
     font-family: "#{$family-name}";
     src: local('☺'),
       url($font-path + '.woff') format('woff'),
@@ -53,7 +53,7 @@ $pink: #FDBECF;
   );
 
 $serif: Stanley-Regular, Times, Georgia, serif;
-$serif-bold: BluuNext-Bold, Times, Georgia, serif;
+$serif-bold: BluuNext-Bold, Times bold, Georgia bold, serif bold;
 
 /**----------------------------------------
 	SPORTING GROTESQUE
@@ -72,7 +72,7 @@ $serif-bold: BluuNext-Bold, Times, Georgia, serif;
   );
 
 $sans: sportinggrotesque-normal, Helvetica, Arial, sans-serif;
-$sans-bold: sportinggrotesque-gras;
+$sans-bold: sportinggrotesque-gras, Helvetica bold, Arial bold, sans-serif bold;
 
 /**----------------------------------------
 	COUSINE
@@ -93,7 +93,7 @@ $sans-bold: sportinggrotesque-gras;
   );
 
 $mono: Cousine, Courier, monospace;
-$mono-bold: Cousine-Bold;
+$mono-bold: Cousine-Bold, Courier bold, monospace bold;
 
 
 /**---------------------------------------

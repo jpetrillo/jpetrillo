@@ -50,15 +50,18 @@
 	position:relative;
 	z-index: 3;
 	animation: .85s ease 0s 1 WorkIntro;
-	&:hover {
-		&:before {
- 			content: "";
-  			position: absolute;
-  			top: 47%;
-  			left: 0;
-  			right: 0;
- 			height: 1px; /* ADJUST HEIGHT TO ADD WEIGHT */
- 			background: $pink; /* CHANGE COLOR TO SUIT */
+
+	@include mq($tablet){
+		&:hover {
+			&:before {
+	 			content: "";
+	  			position: absolute;
+	  			top: 47%;
+	  			left: 0;
+	  			right: 0;
+	 			height: 1px; /* ADJUST HEIGHT TO ADD WEIGHT */
+	 			background: $pink; /* CHANGE COLOR TO SUIT */
+			}
 		}
 	}
 }
