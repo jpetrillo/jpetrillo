@@ -27,7 +27,8 @@ footer {
 }
 
 .footer-next, .footer-back {
-	font-family: $mono-bold;
+	font-family: $mono;
+	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 9px;
 	letter-spacing: 1px;

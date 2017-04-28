@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Stanley-Regular';
-  src: url('.static/fonts/Optimo - Stanley-Regular.otf') format('otf');
+  src: url('./static/fonts/Optimo - Stanley-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -29,10 +29,10 @@ $serif: Stanley-Regular, Times, Georgia, serif;
 
 @font-face {
   font-family: 'bluu';
-  src: url('.static/fonts/bluunext-bold-webfont.woff2') format('woff2'),
-       url('.static/fonts/bluunext-bold-webfont.woff') format('woff'),
-       url('.static/fonts/bluunext-bold.ttf') format('truetype'),
-       url('.static/fonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+  src: url('./static/fonts/bluunext-bold-webfont.woff2') format('woff2'),
+       url('./static/fonts/bluunext-bold-webfont.woff') format('woff'),
+       url('./static/fonts/bluunext-bold.ttf') format('truetype'),
+       url('./static/fonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -80,10 +80,9 @@ $sans-bold: sportinggrotesque-gras, Helvetica, Arial, sans-serif;
 	COUSINE
 ----------------------------------------**/
 
-@import url('https://fonts.googleapis.com/css?family=Cousine');
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,700');
 
 $mono: Cousine, Courier, monospace;
-$mono-bold: Cousine-Bold, Courier, monospace;
 
 
 /**---------------------------------------

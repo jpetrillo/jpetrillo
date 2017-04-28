@@ -5,7 +5,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Cousine");
+@import url("https://fonts.googleapis.com/css?family=Cousine:400,700");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,7 +65,7 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: 'Stanley-Regular';
-  src: url(".static/fonts/Optimo - Stanley-Regular.otf") format("otf");
+  src: url("./static/fonts/Optimo - Stanley-Regular.otf") format("otf");
   font-weight: normal;
   font-style: normal; }
 
@@ -74,7 +74,7 @@ table {
 ----------------------------------------**/
 @font-face {
   font-family: 'bluu';
-  src: url(".static/fonts/bluunext-bold-webfont.woff2") format("woff2"), url(".static/fonts/bluunext-bold-webfont.woff") format("woff"), url(".static/fonts/bluunext-bold.ttf") format("truetype"), url(".static/fonts/bluunext-bold-webfont.svg#bluu_nextbold") format("svg");
+  src: url("./static/fonts/bluunext-bold-webfont.woff2") format("woff2"), url("./static/fonts/bluunext-bold-webfont.woff") format("woff"), url("./static/fonts/bluunext-bold.ttf") format("truetype"), url("./static/fonts/bluunext-bold-webfont.svg#bluu_nextbold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -465,7 +465,8 @@ nav, .about-links {
 .showme {
   -webkit-animation: .5s ease 0s 1 ShowMeIntro;
           animation: .5s ease 0s 1 ShowMeIntro;
-  font-family: Cousine-Bold, Courier, monospace;
+  font-family: Cousine, Courier, monospace;
+  font-weight: 700;
   margin-top: 10vh;
   text-transform: uppercase;
   font-size: 2vh;
@@ -769,7 +770,8 @@ nav, .about-links {
   right: 0; }
 
 .back, .next {
-  font-family: Cousine-Bold, Courier, monospace;
+  font-family: Cousine, Courier, monospace;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 1px;
@@ -980,7 +982,8 @@ footer {
           justify-content: space-between; }
 
 .footer-next, .footer-back {
-  font-family: Cousine-Bold, Courier, monospace;
+  font-family: Cousine, Courier, monospace;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 9px;
   letter-spacing: 1px;
